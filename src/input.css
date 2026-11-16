@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: vazir;
+    src: url(../Fonts/Vazir-Medium-FD-WOL.ttf);
+}
+
+body {
+    font-family: vazir;
+    height: 100dvh;
+    background-color: rgb(231, 240, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
